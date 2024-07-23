@@ -1,0 +1,38 @@
+{
+    "accountNumber": "123456789",
+    "accountHolderName": "John Doe",
+    "balance": 1500.75,
+    "accountType": "Checking",
+    "currency": "USD",
+    "branch": {
+        "branchName": "Main Street Branch",
+        "branchCode": "MS001",
+        "branchAddress": "123 Main Street, Anytown, USA"
+    },
+    "transactions": [
+        {
+            "transactionId": "T001",
+            "date": "2024-07-20",
+            "type": "Deposit",
+            "amount": 500.00,
+            "balanceAfterTransaction": 1500.75,
+            "description": "Paycheck deposit"
+        },
+        {
+            "transactionId": "T002",
+            "date": "2024-07-18",
+            "type": "Withdrawal",
+            "amount": 100.00,
+            "balanceAfterTransaction": 1000.75,
+            "description": "ATM withdrawal"
+        },
+        {
+            "transactionId": "T003",
+            "date": "2024-07-15",
+            "type": "Payment",
+            "amount": 50.75,
+            "balanceAfterTransaction": 1100.75,
+            "description": "Electricity bill payment"
+        }
+    ]
+}
